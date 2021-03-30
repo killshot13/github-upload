@@ -1,0 +1,163 @@
+@import url("https://use.typekit.net/ozs0mxx.css");
+
+html {
+	-ms-text-size-adjust: 100%;
+	-webkit-text-size-adjust: 100%;
+}
+
+body {
+	margin: 0;
+	background-color: #111a20;
+	color: #78b6d9;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	font-family: Axia, sans-serif;
+	color: #ecf8ff;
+	font-weight: normal;
+	font-style: normal;
+	line-height: 1.2;
+	margin: 1.66667rem 0 0.83333rem;
+	text-rendering: optimizeLegibility;
+	text-transform: uppercase;
+}
+
+h1:first-child,
+h2:first-child,
+h3:first-child,
+h4:first-child,
+h5:first-child,
+h6:first-child {
+	margin-top: 0;
+}
+
+h1 {
+	font-size: 2.22222em;
+	text-align: center;
+}
+
+h2 {
+	font-size: 1.88889em;
+	text-align: center;
+}
+
+h3 {
+	font-size: 1.55556em;
+}
+
+h4 {
+	font-size: 1.33333em;
+}
+
+h5 {
+	font-size: 1.11111em;
+	text-transform: lowercase;
+	text-align: center;
+}
+
+h6 {
+	font-size: 0.88889em;
+	letter-spacing: 0.0625em;
+	text-transform: uppercase;
+}
+
+section {
+	margin: 1.33333rem;
+	padding: 0.66667rem;
+}
+
+code,
+pre {
+	font-family: "Fira Code", monospace;
+	color: #1cedca;
+	font-weight: 400;
+	font-size: 0.99995rem;
+}
+
+.blkquote-smooth {
+	border-left: 12px solid #1cedca;
+	border-bottom: 2px solid #111a20;
+	border-top: 2px solid #111a20;
+	font-family: Axia, sans-serif;
+	color: #cde2f0;
+	font-weight: 400;
+	font-style: italic;
+	font-size: 1.333333em;
+	line-height: 1.2;
+	margin: 1.5rem 0;
+}
+
+.blkquote-sharp {
+	border-left: 12px solid #baeda5;
+	border-bottom: 4px solid #111a20;
+	border-top: 4px solid #111a20;
+	font-family: Axia, sans-serif;
+	color: #cde2f0;
+	font-weight: 400;
+	font-style: italic;
+	font-size: 1.333333em;
+	line-height: 1.2;
+	margin: 2rem 0;
+}
+
+blockquote:first-child {
+	margin-top: 0;
+}
+
+blockquote p {
+	margin-bottom: 0.66667rem;
+	padding-left: 1.33333rem;
+}
+
+blockquote p:last-child {
+	margin-bottom: 1.33333rem;
+}
+
+blockquote,
+q {
+	quotes: none;
+}
+
+blockquote cite,
+blockquote small {
+	display: block;
+	font-size: 0.52941em;
+	font-style: italic;
+	font-weight: 400;
+	line-height: 1.5;
+	margin-top: 1em;
+	text-align: right;
+	padding-right: 1.333333rem;
+}
+
+blockquote cite:last-child,
+blockquote small:last-child {
+	margin-bottom: 0;
+}
+
+@media only screen and (max-width: 600px) {
+	html {
+		font-size: 100%;
+	}
+
+	h1 {
+		font-size: 2em;
+	}
+
+	h2 {
+		font-size: 1.77778em;
+	}
+
+	blockquote {
+		background: #111a20;
+		border-left: 6px solid #1cedca;
+		margin: 1em 5px;
+		padding: 1em 5px 0.1em;
+		quotes: "\201C""\201D""\2018""\2019";
+	}
+}
